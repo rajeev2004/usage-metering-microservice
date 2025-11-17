@@ -62,8 +62,8 @@ Retrieve aggregated usage and bill.
 
 Example
 GET /usage/summary/cust_001
-```json
 Response
+```json
 {
   "customer_id": "cust_001",
   "total_units": 450,
