@@ -25,7 +25,11 @@ api_call: 0.5,
 storage_gb: 2.0,
 sms_sent: 0.2
 ```
-##🧪 API Endpoints
+
+---
+
+## 🧪 API Endpoints
+
 ✔ POST /usage/record
 ### Test 1:
 ### Test LIVE API ✔ POST https://kyc-miniservice.onrender.com/kyc/pan/verify
