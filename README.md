@@ -32,7 +32,8 @@ sms_sent: 0.2
 
 ✔ POST /usage/record
 ### Test 1:
-### Test LIVE API ✔ POST https://kyc-miniservice.onrender.com/kyc/pan/verify
+### Test LIVE API ✔ POST https://usage-metering-microservice.onrender.com/usage/record
+### http://localhost:5000/usage/record   (locally)
 
 Record a usage event.
 
@@ -60,7 +61,8 @@ Response
 
 ✔ GET /usage/summary/:customer_id
 ### Test 2:
-### Test LIVE API ✔ POST https://kyc-miniservice.onrender.com/kyc/pan/verify
+### Test LIVE API ✔ POST https://usage-metering-microservice.onrender.com/usage/summary/cust_001
+### http://localhost:5000/usage/summary/cust_001  (locally)
 
 Retrieve aggregated usage and bill.
 
