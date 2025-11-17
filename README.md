@@ -61,7 +61,7 @@ Response
 
 ✔ GET /usage/summary/:customer_id
 ### Test 2:
-### Test LIVE API ✔ POST https://usage-metering-microservice.onrender.com/usage/summary/cust_001
+### Test LIVE API ✔ GET https://usage-metering-microservice.onrender.com/usage/summary/cust_001
 ### http://localhost:5000/usage/summary/cust_001  (locally)
 
 Retrieve aggregated usage and bill.
