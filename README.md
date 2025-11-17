@@ -68,6 +68,8 @@ Retrieve aggregated usage and bill.
 
 Example
 GET /usage/summary/cust_001
+
+
 Response
 ```json
 {
